@@ -47,4 +47,9 @@ g.add_bidir_edge('Fagaras','Bucharest',211)
 
 # Perform breadth-first search to find the path from Arad ==> Bucharest
 gt = GraphTraverser(g)
-gt.breadth_first_traversal('Arad', 'Bucharest')
+# gt.breadth_first_traversal('Arad', 'Bucharest')
+
+# Perform depth-first search to find the path from Arad ==> Bucharest
+gt.depth_first_traversal('Arad', 'Bucharest')
+# charrel5
+# 3/25/2023
