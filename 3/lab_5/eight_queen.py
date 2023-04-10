@@ -18,10 +18,14 @@ class EightQueenGame:
         self.positions = p
         return
     
-    #find how many attacks are in a given setting
-    #p is a list of size 8 holding the 8 queens positions from row 0 to row 7
+    #
+    #
     # This method uses nested loops to get the total number of attacks
     def get_num_attacks(p):
+        """find how many attacks are in a given setting
+        p is a list of size 8 holding the 8 queens positions from row 0 to row 7
+        """
+
         nattacks = 0
         for i in range(0,8):
             for j in range(i+1,8):
